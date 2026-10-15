@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-10-10",
+  "client": {
+    "client_id": "C006",
+    "name": "Dewi Lestari",
+    "age": 67,
+    "base_currency": "IDR",
+    "segment": "retiree"
+  },
+  "accounts": [
+    {
+      "account_id": "ACC-C006-0001",
+      "type": "savings",
+      "balance": 420000000,
+      "currency": "IDR"
+    }
+  ],
+  "holdings": [
+    {
+      "asset_id": "DEP-12M",
+      "name": "12M Time Deposit",
+      "asset_class": "cash",
+      "sector": "Cash",
+      "market_value": 300000000,
+      "cost_basis": 300000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "SBR012",
+      "name": "SBR012 Savings Bond",
+      "asset_class": "fixed_income",
+      "sector": "Government",
+      "market_value": 200000000,
+      "cost_basis": 200000000,
+      "currency": "IDR"
+    }
+  ],
+  "transactions": []
+}

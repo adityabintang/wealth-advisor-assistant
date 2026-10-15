@@ -1,0 +1,7 @@
+{
+  "as_of": "2026-10-10",
+  "client": {"client_id": "C005", "name": "Hendra Gunawan", "base_currency": "IDR"},
+  "accounts": [
+    {"account_id": "ACC-C005-0001", "type": "savings", "balance": 300000000, "currency": "IDR"},
+  "transactions": [
+    {"txn_id": "C005-T0001", "date": "2026-09-01", "amount": 5000000, "direction": "out"

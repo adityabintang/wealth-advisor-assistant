@@ -1,0 +1,40 @@
+[project]
+name = "wealth-advisor-assistant"
+version = "1.0.0"
+description = "Lightweight multi-agent system (LangGraph) that prepares structured advisory decisions for wealth advisors."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=1.2,<1.3",  # pinned: LangGraph APIs (interrupt/Command/checkpointer) move quickly
+    "pydantic>=2.7,<3.0",
+    "pyyaml>=6.0",
+    "typer>=0.12",
+    "rich>=13.7",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+# Optional LLM narrative (FR-15). Install the provider package you need, e.g.
+#   uv sync --extra llm --extra openai
+llm = ["langchain>=1.0"]
+openai = ["langchain-openai"]
+anthropic = ["langchain-anthropic"]
+gemini = ["langchain-google-genai"]
+ollama = ["langchain-ollama"]
+
+[project.scripts]
+wealth-advisor = "wealth_advisor.cli:app"
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wealth_advisor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,1136 @@
+{
+  "as_of": "2026-10-10",
+  "client": {
+    "client_id": "C001",
+    "name": "Budi Santoso",
+    "date_of_birth": "1981-04-12",
+    "base_currency": "IDR",
+    "segment": "affluent"
+  },
+  "accounts": [
+    {
+      "account_id": "ACC-C001-0001",
+      "type": "checking",
+      "balance": 75000000,
+      "currency": "IDR"
+    },
+    {
+      "account_id": "ACC-C001-0002",
+      "type": "savings",
+      "balance": 250000000,
+      "currency": "IDR"
+    }
+  ],
+  "holdings": [
+    {
+      "asset_id": "BBCA",
+      "name": "Bank Central Asia",
+      "asset_class": "equity",
+      "sector": "Banking",
+      "quantity": 150000,
+      "market_value": 150000000,
+      "cost_basis": 130000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "TLKM",
+      "name": "Telkom Indonesia",
+      "asset_class": "equity",
+      "sector": "Telecommunication",
+      "quantity": 90000,
+      "market_value": 90000000,
+      "cost_basis": 95000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "ASII",
+      "name": "Astra International",
+      "asset_class": "equity",
+      "sector": "Consumer Cyclical",
+      "quantity": 80000,
+      "market_value": 80000000,
+      "cost_basis": 72000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "XIIT",
+      "name": "IDX30 Index ETF",
+      "asset_class": "equity",
+      "sector": "Diversified",
+      "quantity": 120000,
+      "market_value": 120000000,
+      "cost_basis": 110000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "FR0091",
+      "name": "Indonesia Gov Bond FR0091",
+      "asset_class": "fixed_income",
+      "sector": "Government",
+      "quantity": 200000,
+      "market_value": 200000000,
+      "cost_basis": 198000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "CBFUND",
+      "name": "Corporate Bond Fund",
+      "asset_class": "fixed_income",
+      "sector": "Corporate Credit",
+      "quantity": 100000,
+      "market_value": 100000000,
+      "cost_basis": 97000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "MMF01",
+      "name": "Money Market Fund",
+      "asset_class": "cash",
+      "sector": "Money Market",
+      "quantity": 60000,
+      "market_value": 60000000,
+      "cost_basis": 60000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "GOLD",
+      "name": "Antam Gold",
+      "asset_class": "commodity",
+      "sector": "Commodities",
+      "quantity": 50000,
+      "market_value": 50000000,
+      "cost_basis": 42000000,
+      "currency": "IDR"
+    }
+  ],
+  "transactions": [
+    {
+      "txn_id": "C001-T0001",
+      "date": "2026-07-25T08:48:00",
+      "amount": 85000000.0,
+      "direction": "in",
+      "category": "salary",
+      "counterparty": "PT Nusantara Teknologi",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0002",
+      "date": "2026-08-25T09:35:00",
+      "amount": 85000000.0,
+      "direction": "in",
+      "category": "salary",
+      "counterparty": "PT Nusantara Teknologi",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0003",
+      "date": "2026-09-25T20:10:00",
+      "amount": 85000000.0,
+      "direction": "in",
+      "category": "salary",
+      "counterparty": "PT Nusantara Teknologi",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0004",
+      "date": "2026-08-05T13:36:00",
+      "amount": 1222000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "PLN",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0005",
+      "date": "2026-09-05T14:49:00",
+      "amount": 1295000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "PLN",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0006",
+      "date": "2026-10-05T17:56:00",
+      "amount": 1272000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "PLN",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0007",
+      "date": "2026-08-07T19:45:00",
+      "amount": 423000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "IndiHome",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0008",
+      "date": "2026-09-07T15:45:00",
+      "amount": 465000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "IndiHome",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0009",
+      "date": "2026-10-07T17:47:00",
+      "amount": 462000.0,
+      "direction": "out",
+      "category": "utilities",
+      "counterparty": "IndiHome",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0010",
+      "date": "2026-08-10T16:46:00",
+      "amount": 15000000.0,
+      "direction": "out",
+      "category": "investment",
+      "counterparty": "Mandiri Sekuritas",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0011",
+      "date": "2026-09-10T10:01:00",
+      "amount": 15000000.0,
+      "direction": "out",
+      "category": "investment",
+      "counterparty": "Mandiri Sekuritas",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0012",
+      "date": "2026-10-10T09:40:00",
+      "amount": 15000000.0,
+      "direction": "out",
+      "category": "investment",
+      "counterparty": "Mandiri Sekuritas",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0013",
+      "date": "2026-07-15T18:08:00",
+      "amount": 2500000.0,
+      "direction": "out",
+      "category": "insurance",
+      "counterparty": "Prudential",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0014",
+      "date": "2026-08-15T12:27:00",
+      "amount": 2500000.0,
+      "direction": "out",
+      "category": "insurance",
+      "counterparty": "Prudential",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0015",
+      "date": "2026-09-15T09:34:00",
+      "amount": 2500000.0,
+      "direction": "out",
+      "category": "insurance",
+      "counterparty": "Prudential",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0016",
+      "date": "2026-07-11T14:05:00",
+      "amount": 934000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0017",
+      "date": "2026-07-14T14:02:00",
+      "amount": 809000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0018",
+      "date": "2026-07-17T17:13:00",
+      "amount": 1124000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0019",
+      "date": "2026-07-20T20:21:00",
+      "amount": 860000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0020",
+      "date": "2026-07-23T20:53:00",
+      "amount": 1106000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0021",
+      "date": "2026-07-26T11:36:00",
+      "amount": 923000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0022",
+      "date": "2026-07-29T14:11:00",
+      "amount": 635000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0023",
+      "date": "2026-08-01T16:55:00",
+      "amount": 1013000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0024",
+      "date": "2026-08-04T09:14:00",
+      "amount": 625000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0025",
+      "date": "2026-08-08T15:01:00",
+      "amount": 955000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0026",
+      "date": "2026-08-12T15:03:00",
+      "amount": 1002000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0027",
+      "date": "2026-08-16T09:46:00",
+      "amount": 677000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0028",
+      "date": "2026-08-19T12:16:00",
+      "amount": 1141000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0029",
+      "date": "2026-08-22T08:14:00",
+      "amount": 1113000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0030",
+      "date": "2026-08-25T16:33:00",
+      "amount": 891000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0031",
+      "date": "2026-08-28T17:21:00",
+      "amount": 665000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0032",
+      "date": "2026-09-01T08:50:00",
+      "amount": 788000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0033",
+      "date": "2026-09-04T20:21:00",
+      "amount": 751000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0034",
+      "date": "2026-09-07T16:55:00",
+      "amount": 834000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0035",
+      "date": "2026-09-11T11:52:00",
+      "amount": 800000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0036",
+      "date": "2026-09-14T10:32:00",
+      "amount": 1145000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0037",
+      "date": "2026-09-17T11:50:00",
+      "amount": 644000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0038",
+      "date": "2026-09-20T12:04:00",
+      "amount": 934000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0039",
+      "date": "2026-09-23T09:59:00",
+      "amount": 669000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0040",
+      "date": "2026-09-26T11:42:00",
+      "amount": 1122000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0041",
+      "date": "2026-09-29T15:25:00",
+      "amount": 721000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0042",
+      "date": "2026-10-03T09:29:00",
+      "amount": 1158000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Hypermart",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0043",
+      "date": "2026-10-06T13:50:00",
+      "amount": 726000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Superindo",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0044",
+      "date": "2026-10-10T18:55:00",
+      "amount": 900000.0,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Ranch Market",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0045",
+      "date": "2026-07-12T11:12:00",
+      "amount": 263000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0046",
+      "date": "2026-07-17T18:28:00",
+      "amount": 400000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0047",
+      "date": "2026-07-21T09:21:00",
+      "amount": 278000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0048",
+      "date": "2026-07-25T12:28:00",
+      "amount": 398000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0049",
+      "date": "2026-07-30T20:30:00",
+      "amount": 265000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0050",
+      "date": "2026-08-03T14:46:00",
+      "amount": 301000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0051",
+      "date": "2026-08-07T10:27:00",
+      "amount": 256000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0052",
+      "date": "2026-08-11T12:58:00",
+      "amount": 345000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0053",
+      "date": "2026-08-16T09:56:00",
+      "amount": 424000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0054",
+      "date": "2026-08-21T13:46:00",
+      "amount": 353000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0055",
+      "date": "2026-08-26T15:30:00",
+      "amount": 404000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0056",
+      "date": "2026-08-30T11:34:00",
+      "amount": 353000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0057",
+      "date": "2026-09-03T12:24:00",
+      "amount": 306000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0058",
+      "date": "2026-09-08T08:56:00",
+      "amount": 419000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0059",
+      "date": "2026-09-12T18:34:00",
+      "amount": 373000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0060",
+      "date": "2026-09-16T17:16:00",
+      "amount": 311000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0061",
+      "date": "2026-09-20T08:56:00",
+      "amount": 266000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0062",
+      "date": "2026-09-24T19:58:00",
+      "amount": 351000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0063",
+      "date": "2026-09-28T12:38:00",
+      "amount": 287000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Sate Khas Senayan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0064",
+      "date": "2026-10-02T16:17:00",
+      "amount": 294000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Kopi Kenangan",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0065",
+      "date": "2026-10-07T13:29:00",
+      "amount": 397000.0,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Bakmi GM",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0066",
+      "date": "2026-07-13T17:26:00",
+      "amount": 635000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Tokopedia",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0067",
+      "date": "2026-07-19T11:22:00",
+      "amount": 780000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Shopee",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0068",
+      "date": "2026-07-26T17:42:00",
+      "amount": 519000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Blibli",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0069",
+      "date": "2026-08-01T19:55:00",
+      "amount": 483000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Tokopedia",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0070",
+      "date": "2026-08-08T09:00:00",
+      "amount": 511000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Shopee",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0071",
+      "date": "2026-08-14T09:30:00",
+      "amount": 638000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Blibli",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0072",
+      "date": "2026-08-20T08:56:00",
+      "amount": 631000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Tokopedia",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0073",
+      "date": "2026-08-26T16:46:00",
+      "amount": 447000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Shopee",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0074",
+      "date": "2026-09-01T11:39:00",
+      "amount": 443000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Blibli",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0075",
+      "date": "2026-09-07T12:37:00",
+      "amount": 588000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Tokopedia",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0076",
+      "date": "2026-09-13T10:11:00",
+      "amount": 223000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Shopee",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0077",
+      "date": "2026-09-19T19:22:00",
+      "amount": 819000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Blibli",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0078",
+      "date": "2026-09-25T12:38:00",
+      "amount": 712000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Tokopedia",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0079",
+      "date": "2026-10-01T18:52:00",
+      "amount": 826000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Shopee",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0080",
+      "date": "2026-10-08T17:25:00",
+      "amount": 767000.0,
+      "direction": "out",
+      "category": "online_shopping",
+      "counterparty": "Blibli",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0081",
+      "date": "2026-07-14T11:40:00",
+      "amount": 76000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0082",
+      "date": "2026-07-19T10:51:00",
+      "amount": 68000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0083",
+      "date": "2026-07-25T09:48:00",
+      "amount": 62000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0084",
+      "date": "2026-07-31T16:49:00",
+      "amount": 143000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0085",
+      "date": "2026-08-06T16:01:00",
+      "amount": 115000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0086",
+      "date": "2026-08-11T18:35:00",
+      "amount": 58000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0087",
+      "date": "2026-08-16T20:05:00",
+      "amount": 84000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0088",
+      "date": "2026-08-21T17:28:00",
+      "amount": 133000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0089",
+      "date": "2026-08-27T17:01:00",
+      "amount": 108000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0090",
+      "date": "2026-09-01T13:56:00",
+      "amount": 112000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0091",
+      "date": "2026-09-07T08:13:00",
+      "amount": 91000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0092",
+      "date": "2026-09-13T20:12:00",
+      "amount": 100000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0093",
+      "date": "2026-09-18T15:51:00",
+      "amount": 139000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0094",
+      "date": "2026-09-23T15:43:00",
+      "amount": 106000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0095",
+      "date": "2026-09-28T12:10:00",
+      "amount": 103000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0096",
+      "date": "2026-10-03T16:49:00",
+      "amount": 89000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Grab",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C001-T0097",
+      "date": "2026-10-09T10:22:00",
+      "amount": 79000.0,
+      "direction": "out",
+      "category": "transport",
+      "counterparty": "Gojek",
+      "account_id": "ACC-C001-0001",
+      "currency": "IDR"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-12",
+      "total_value": 825000000
+    },
+    {
+      "date": "2026-07-19",
+      "total_value": 824800000.0
+    },
+    {
+      "date": "2026-07-26",
+      "total_value": 832100000.0
+    },
+    {
+      "date": "2026-08-02",
+      "total_value": 832300000.0
+    },
+    {
+      "date": "2026-08-09",
+      "total_value": 829500000.0
+    },
+    {
+      "date": "2026-08-16",
+      "total_value": 839300000.0
+    },
+    {
+      "date": "2026-08-23",
+      "total_value": 840900000.0
+    },
+    {
+      "date": "2026-08-30",
+      "total_value": 838900000.0
+    },
+    {
+      "date": "2026-09-06",
+      "total_value": 836300000.0
+    },
+    {
+      "date": "2026-09-13",
+      "total_value": 844300000.0
+    },
+    {
+      "date": "2026-09-20",
+      "total_value": 839900000.0
+    },
+    {
+      "date": "2026-09-27",
+      "total_value": 848900000.0
+    },
+    {
+      "date": "2026-10-04",
+      "total_value": 848800000.0
+    },
+    {
+      "date": "2026-10-10",
+      "total_value": 850000000
+    }
+  ]
+}

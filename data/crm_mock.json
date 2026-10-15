@@ -1,0 +1,144 @@
+{
+  "_comment": "Mock CRM API. failure_injection simulates outages per client (timeout | error_500 | empty | flaky).",
+  "failure_injection": {
+    "C004": "timeout"
+  },
+  "clients": {
+    "C001": {
+      "status": "active",
+      "risk_profile": {
+        "category": "moderate",
+        "max_equity_pct": 0.6,
+        "score": 55,
+        "last_assessed": "2026-01-15"
+      },
+      "goals": [
+        {
+          "goal": "Retirement at 60",
+          "target_amount": 8000000000,
+          "horizon_years": 15,
+          "priority": "high"
+        },
+        {
+          "goal": "Children's university fund",
+          "target_amount": 1500000000,
+          "horizon_years": 8,
+          "priority": "medium"
+        }
+      ],
+      "relationship": {
+        "tier": "Gold",
+        "last_contact_date": "2026-08-20",
+        "advisor": "A. B. Fadila"
+      },
+      "notes": [
+        {
+          "date": "2026-08-20",
+          "author": "A. B. Fadila",
+          "text": "Quarterly review; client comfortable with current allocation."
+        }
+      ]
+    },
+    "C002": {
+      "status": "active",
+      "risk_profile": {
+        "category": "moderate",
+        "max_equity_pct": 0.6,
+        "score": 50,
+        "last_assessed": "2025-11-03"
+      },
+      "goals": [
+        {
+          "goal": "Wealth preservation",
+          "horizon_years": 10,
+          "priority": "high"
+        }
+      ],
+      "relationship": {
+        "tier": "Platinum",
+        "last_contact_date": "2026-06-15",
+        "advisor": "A. B. Fadila"
+      },
+      "notes": [
+        {
+          "date": "2026-06-15",
+          "author": "A. B. Fadila",
+          "text": "Client expressed interest in digital assets; advised caution."
+        }
+      ]
+    },
+    "C003": {
+      "status": "active",
+      "goals": [
+        {
+          "goal": "Buy a house",
+          "target_amount": 1200000000,
+          "horizon_years": 5,
+          "priority": "high"
+        }
+      ],
+      "relationship": {
+        "tier": "Silver",
+        "last_contact_date": "2026-09-01",
+        "advisor": "A. B. Fadila"
+      },
+      "notes": [
+        {
+          "date": "2026-09-01",
+          "author": "A. B. Fadila",
+          "text": "Risk profiling questionnaire not yet completed."
+        }
+      ]
+    },
+    "C004": {
+      "status": "active",
+      "risk_profile": {
+        "category": "moderate",
+        "max_equity_pct": 0.6,
+        "score": 52,
+        "last_assessed": "2026-03-10"
+      },
+      "goals": [
+        {
+          "goal": "Early retirement",
+          "horizon_years": 20,
+          "priority": "high"
+        }
+      ],
+      "relationship": {
+        "tier": "Gold",
+        "last_contact_date": "2026-09-12",
+        "advisor": "A. B. Fadila"
+      },
+      "notes": []
+    },
+    "C006": {
+      "status": "active",
+      "risk_profile": {
+        "category": "conservative",
+        "max_equity_pct": 0.2,
+        "score": 20,
+        "last_assessed": "2025-06-01"
+      },
+      "goals": [
+        {
+          "goal": "Stable retirement income",
+          "horizon_years": 10,
+          "priority": "high"
+        }
+      ],
+      "relationship": {
+        "tier": "Silver",
+        "last_contact_date": "2025-12-01",
+        "advisor": "A. B. Fadila"
+      },
+      "notes": [
+        {
+          "date": "2025-12-01",
+          "author": "A. B. Fadila",
+          "text": "Prefers deposits and government bonds."
+        }
+      ]
+    }
+  }
+}

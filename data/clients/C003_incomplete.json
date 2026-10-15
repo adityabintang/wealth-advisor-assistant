@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-10-10",
+  "client": {
+    "client_id": "C003",
+    "name": "Andi Wijaya",
+    "base_currency": "IDR"
+  },
+  "accounts": [
+    {
+      "account_id": "ACC-C003-0001",
+      "type": "savings",
+      "balance": 90000000
+    }
+  ],
+  "holdings": [
+    {
+      "asset_id": "SCHRODER-EQ",
+      "name": "Schroder Dana Prestasi",
+      "asset_class": "equity",
+      "sector": "Diversified",
+      "market_value": 60000000,
+      "cost_basis": 55000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "ORI023",
+      "name": "ORI023 Retail Bond",
+      "asset_class": "bond",
+      "sector": "Government",
+      "market_value": 150000000,
+      "cost_basis": 150000000,
+      "currency": "IDR"
+    },
+    {
+      "asset_id": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "asset_class": "equity",
+      "market_value": 5000,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "txn_id": "C003-T0001",
+      "date": "2026-09-25",
+      "amount": 45000000,
+      "direction": "in",
+      "category": "salary",
+      "counterparty": "CV Maju Jaya",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C003-T0002",
+      "date": "2026-09-27",
+      "amount": 850000,
+      "direction": "out",
+      "category": "groceries",
+      "counterparty": "Alfamart",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C003-T0003",
+      "date": "2026-09-30",
+      "amount": -2500000,
+      "category": "utilities",
+      "counterparty": "PLN",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C003-T0004",
+      "date": "2026-13-45",
+      "amount": 1200000,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Unknown Resto",
+      "currency": "IDR"
+    },
+    {
+      "txn_id": "C003-T0005",
+      "date": "2026-10-02",
+      "amount": 12000,
+      "direction": "out",
+      "category": "shopping",
+      "counterparty": "Rakuten",
+      "currency": "JPY"
+    },
+    {
+      "txn_id": "C003-T0006",
+      "date": "2026-10-04",
+      "amount": 300,
+      "direction": "out",
+      "category": "dining",
+      "counterparty": "Marina Bay Grill",
+      "currency": "USD"
+    },
+    {
+      "txn_id": "C003-T0007",
+      "date": "2026-10-06",
+      "amount": 400000,
+      "direction": "out",
+      "currency": "IDR"
+    }
+  ]
+}

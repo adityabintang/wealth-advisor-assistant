@@ -1,0 +1,90 @@
+# Wealth Advisor Assistant — runtime configuration.
+# All anomaly thresholds are illustrative defaults, NOT regulatory standards.
+# Every value here can be tuned without touching code.
+
+base_currency: IDR
+
+# Static FX table used to normalise mixed-currency rows (PRD §20).
+# Rows in a currency that cannot be converted are quarantined.
+fx_rates:
+  USD: { IDR: 15800.0 }
+  SGD: { IDR: 11900.0 }
+  EUR: { IDR: 17100.0 }
+
+# Allocation limits per risk profile. CRM-provided limits take precedence.
+risk_profiles:
+  conservative: { max_equity_pct: 0.30 }
+  moderate:     { max_equity_pct: 0.60 }
+  aggressive:   { max_equity_pct: 0.90 }
+default_risk_profile: conservative   # used when CRM has no risk profile
+
+anomaly:
+  min_transactions_for_statistics: 10   # below this, statistical detectors are skipped
+  unusual_amount:
+    robust_z_threshold: 3.5
+    median_multiple: 5.0
+    min_samples_per_category: 5
+    high_severity_robust_z: 7.0
+    high_severity_median_multiple: 10.0
+  duplicate:
+    window_hours: 24
+    min_occurrences: 2
+  frequency_spike:
+    sigma: 3.0
+    min_days_observed: 14
+    min_daily_count: 5
+  large_outflow:
+    window_days: 30
+    ratio_of_total_assets: 0.30
+  new_counterparty:
+    min_amount: 100000000        # in base currency
+    lookback_days: 30            # only flag counterparties first seen in this window
+    min_history_days: 30         # need this much prior history to call something "new"
+  concentration:
+    single_asset_pct: 0.40
+    sector_pct: 0.40
+    # Sectors that are diversified by construction are excluded from the sector check.
+    sector_exclusions: [Diversified, Government, Money Market, Cash, Unknown]
+    # Holdings in these sectors are not single-issuer risk (index funds, sovereign bonds, deposits).
+    single_asset_exclusion_sectors: [Diversified, Government, Money Market, Cash]
+  value_decline:
+    window_days: 90
+    threshold_pct: -0.10
+
+confidence:
+  floor: 0.05
+  penalties:
+    crm_unavailable: 0.25
+    crm_from_cache: 0.10
+    risk_profile_assumed: 0.15
+    no_transactions: 0.20
+    insufficient_transactions: 0.15
+    missing_history: 0.05
+    quarantined_record: 0.05       # per record
+    quarantined_record_cap: 0.15
+    defaulted_field: 0.02          # per defaulted optional field
+    defaulted_field_cap: 0.10
+    detector_failed: 0.10
+    analysis_failed: 0.40
+    recommendation_failed: 0.20
+
+hitl:
+  confidence_threshold: 0.70
+  trigger_on_high_severity: true
+  trigger_on_degraded: true
+
+crm:
+  timeout_seconds: 0.5
+  max_retries: 2                 # retries after the first attempt
+  backoff_base_seconds: 0.2      # exponential: 0.2s, 0.4s, ...
+  latency_ms: [10, 40]           # simulated latency range of the mock API
+  seed: 42                       # reproducible latency / flaky failures
+  circuit_breaker:
+    failure_threshold: 5         # consecutive failed attempts before opening
+    reset_seconds: 30            # half-open after this cool-down
+
+orchestrator:
+  step_max_attempts: 2           # step-level retry for transient agent errors
+
+relationship:
+  stale_contact_days: 180
