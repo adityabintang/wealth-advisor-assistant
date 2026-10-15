@@ -1,7 +1,5 @@
 # PRD — Wealth Advisor Assistant (Multi-Agent System)
 
-Versi 1.0 · 15 Oktober 2026 · Disusun untuk Aditya Bintang Fadila · Status: Draft siap implementasi
-
 ## 1. Ringkasan
 
 Wealth Advisor Assistant adalah sistem multi-agent ringan yang membantu seorang wealth advisor menyiapkan keputusan advisory untuk klien. Sistem menerima data keuangan klien (JSON), melengkapinya dengan konteks dari CRM (mock API), menganalisis portofolio dan transaksi termasuk deteksi anomali, lalu menghasilkan output terstruktur (ringkasan, sinyal risiko, rekomendasi tindakan) yang bisa divalidasi advisor sebelum difinalisasi.
